@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    color: #777;
+}
+
+
+/* Add transition to containers so they can push in and out */
+#layout {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+
+/* --------------------------
+ * Element Styles
+ * --------------------------
+*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+}
+
+#layout {
+    padding-left: 150px; /* left col width "#menu" */
+    left: 0;
+}
+
+.header {
+     min-height: 80px;
+     margin: 0;
+     color: #333;
+     padding: 1em;
+     text-align: center;
+     border-bottom: 1px solid #eee;
+     background: #fff;
+ }
+    .header h1 {
+        margin: 0.2em 0;
+        font-size: 3em;
+        font-weight: 300;
+    }
+     .header h2 {
+        font-weight: 300;
+        margin: 0;
+        color: #ccc;
+    }
+
+
+.content {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom:50px;
+}
+    .content p {
+        line-height: 1.6em;
+        font-size: 1.125em;
+    }
+
+
+.pure-button {
+    font-family: inherit;
+}
+
+
+@media (max-width: 870px) {
+
+    /* Navigation Push Styles */
+    #layout {
+        position: relative;
+        padding-left: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .content {
+        width: 95%;
+        font-size: 90%;
+    }
+}
+
+p {
+    line-height: 1.6em;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Offline Boggle Solver</title>
+    <meta name="description" content="Demo of client-side trie lookup">
+
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+<div class="pure-g-r" id="layout">
+
+
+    <div class="pure-u-1">
+        <div class="header">
+            <h1>Demo</h1>
+
+            <h2> of client-side dictionary lookup</h2>
+        </div>
+        <div class="content">
+            <div>
+                <p>
+                    Type or paste in words separated by spaces and/or newlines
+                </p>
+            </div>
+            <form class="pure-form pure-form-stacked">
+                <fieldset>
+                    <label for="dict">Dictionary</label>
+                    <textarea id="dict" rows=10 columns=20 placeholder="space separated dictionary here"></textarea>
+                </fieldset>
+                <button id="create" class="pure-button pure-button-primary">Create Dictionary</button>
+                <fieldset>
+                    <label for="trie">Trie</label>
+                    <textarea id="trie" rows=10 columns=60
+                              placeholder="trie will show here when you create dictionary"></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="lookup">Trie</label>
+                    <input id="lookup" placeholder="lookup word">
+                </fieldset>
+                <button id="lookup-button" class="pure-button pure-button-primary" disabled>Lookup</button>
+                <div>
+                    <p id="result"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+<script data-main="js/demo.js" src="js/lib/require.js"></script>
+
+</html>
+
+
+
