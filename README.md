@@ -123,11 +123,11 @@ use the [Offline cache][9] feature of HTML5 (well described
 Jacobson, Guy Joseph. 1988. “Succinct static data structures.”
 Pittsburgh, PA, USA.
 
-Jacobson, Guy. 1989. “Space-efficient static trees and graphs.” In
+[Jacobson, Guy. 1989.][16] “Space-efficient static trees and graphs.” In
 Foundations of Computer Science, 1989., 30th Annual Symposium on,
 549–554. IEEE.
 
-Navarro, Gonzalo, and Eliana Providel. 2012. “Fast, small, simple
+[Navarro, Gonzalo, and Eliana Providel. 2012.][17] “Fast, small, simple
 rank/select on bitmaps.” In Experimental Algorithms,
 295–306. Springer.
 
