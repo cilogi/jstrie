@@ -2,8 +2,8 @@ define(["trie/compressedtrienode", "trie/rankdirectory", "trie/simpleselectindex
 
 function (CompressedTrieNode, RankDirectory, SimpleSelectIndex, BitString) {
 
-    function CompressedTrie(data, directoryData, nodeCount) {
-        this.init(data, directoryData, nodeCount);
+    function CompressedTrie(data, nodeCount, directoryData) {
+        this.init(data, nodeCount, directoryData);
     }
 
     CompressedTrie.prototype.init = function (data, nodeCount, directoryData) {
